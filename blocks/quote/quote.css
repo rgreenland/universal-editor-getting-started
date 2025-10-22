@@ -10,6 +10,15 @@
     background-color: red;
 }
 
+.block.bg-blue.quote{
+    background-color: blue;
+}
+
+.block.bg-green.quote{
+    background-color: green;
+}
+
+
 .block.quote blockquote {
     margin: 16px;
     text-indent: 0;
