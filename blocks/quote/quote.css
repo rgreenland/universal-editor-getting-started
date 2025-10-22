@@ -6,6 +6,10 @@
     margin: 1rem 0;
 }
 
+.block.bg-red.quote{
+    background-color: red;
+}
+
 .block.quote blockquote {
     margin: 16px;
     text-indent: 0;
