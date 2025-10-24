@@ -255,5 +255,17 @@
         ]
       }
      ]
-  }
-]
+  },
+  {
+    "id": "feature1",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "quote",
+        "value": "",
+        "label": "Quote",
+        "valueType": "string"
+      }
+        ]
+      }
+    ]
