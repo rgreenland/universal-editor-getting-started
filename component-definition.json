@@ -197,7 +197,7 @@
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
-                  "name": "feature1card",
+                  "name": "Feature1Card",
                   "model": "feature1card"
                 }
               }
