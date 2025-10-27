@@ -33,7 +33,7 @@
     ],
     "models": [
       {
-        "id": "card",
+        "id": "feature1card",
         "fields": [
             {
                 "component": "text",
