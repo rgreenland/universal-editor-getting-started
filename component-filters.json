@@ -40,5 +40,11 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "feature1",
+    "components": [
+      "feature1Card"
+    ]
   }
 ]

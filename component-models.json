@@ -257,8 +257,72 @@
      ]
   },
   {
-    "id": "feature1",
+    "id": "feature1card",
     "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Title",
+        "value": ""
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "content",
+        "label": "Content",
+        "value": ""
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "padding",
+        "label": "Padding",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "label",
+        "label": "Label",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "href",
+        "label": "Href",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "openInNewTab",
+        "label": "Open in new tab",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "align",
+        "label": "Align",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "external",
+        "label": "External",
+        "value": ""
+      }
         ]
       }
+
     ]
