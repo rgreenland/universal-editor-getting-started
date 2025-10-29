@@ -7,5 +7,5 @@ export default function decorate(block) {
      html_to_display += "heyi"
      blockfeature1.textContent = "";
      blockfeature1.setHTMLUnsafe(html_to_display);
-    quoteWrapper.replaceChildren(blockfeature1);
+     feature1Wrapper.replaceChildren(blockfeature1);
   }
