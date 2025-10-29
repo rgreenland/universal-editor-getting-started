@@ -2,10 +2,10 @@ export default function decorate(block) {
     const [feature1Wrapper] = block.children;
   
     const blockfeature1 = document.createElement('blockfeature1');
+    var html_to_display ="";
      //blockquote.textContent = quoteWrapper.textContent.trim() + "hHHeeyy";
+     html_to_display += "heyi"
      blockfeature1.textContent = "";
-     blockfeature1.setHTMLUnsafe("<div class=\"MuiGrid-root MuiGrid-container css-1w5a2c\" data-fondue-recipe=\"feature-2:1.0.0\" data-fondue-version=\"2.31.0\">hey</div>")
-    //  blockquote.textContent += "<div class=\"MuiGrid-root MuiGrid-container css-1w5a2c\" data-fondue-recipe=\"feature-2:1.0.0\" data-fondue-version=\"2.31.0\">";
-    //  blockquote.textContent += "hey</div>";
+     blockfeature1.setHTMLUnsafe(html_to_display);
     quoteWrapper.replaceChildren(blockfeature1);
   }
