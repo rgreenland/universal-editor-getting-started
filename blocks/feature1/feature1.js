@@ -113,6 +113,9 @@ export default function decorate(block) {
     divCard20.href = Cards[index].href;
     divCard20.innerText = Cards[index].label;
 
+    
+    moveInstrumentation(card.children[4].children[0], divCard20);
+
     divCard19.appendChild(divCard20);
     divCard18.appendChild(divCard19);    
     divCard7.appendChild(divCard18);
