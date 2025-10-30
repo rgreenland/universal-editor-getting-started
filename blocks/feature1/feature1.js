@@ -25,7 +25,7 @@ export default function decorate(block) {
   
     const divCard1 = document.createElement('div');
     divCard1.className = "MuiGrid-root MuiGrid-item MuiGrid-grid-mobile-4 MuiGrid-grid-tablet-4 MuiGrid-grid-desktop-3 css-swicca";
-    // moveInstrumentation(row, divCard1);
+    moveInstrumentation(card, divCard1);
     const divCard2 = document.createElement('div');
     divCard2.className = "MuiBox-root css-azi59w";
     
