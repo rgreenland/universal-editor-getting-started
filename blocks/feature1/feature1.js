@@ -67,6 +67,8 @@ export default function decorate(block) {
     divCard11.className = "MuiTypography-root MuiTypography-h5 MuiCardHeader-title css-1g3izzu";
     divCard11.innerText = Cards[index].title;
 
+    moveInstrumentation(card.children[0].innerText, divCard11);
+    
     divCard10.appendChild(divCard11);
     divCard9.appendChild(divCard10);
     divCard8.appendChild(divCard9);
