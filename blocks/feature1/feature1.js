@@ -132,5 +132,6 @@ export default function decorate(block) {
     // div.append(div);
     // });
   });
+  block.textContent = '';
   block.append(divCardContainer);
 };
