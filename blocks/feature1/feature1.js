@@ -93,6 +93,7 @@ export default function decorate(block) {
     const divCard17 = document.createElement('span');
     divCard17.innerText = Cards[index].content;
 
+    moveInstrumentation(card.children[0].children[0], divCard17);
     divCard16.appendChild(divCard17);
     divCard15.appendChild(divCard16);
     divCard14.appendChild(divCard15);
