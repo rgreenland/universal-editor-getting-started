@@ -6,6 +6,7 @@
     "/content/universal-editor-getting-started-site-live-copy/:/universal-editor-getting-started-site-live-copy/"
   ],
   "includes": [
-    "/content/universal-editor-getting-started-site/"
+    "/content/universal-editor-getting-started-site/",
+    "/content/universal-editor-getting-started-site-live-copy/"
   ]
 }
