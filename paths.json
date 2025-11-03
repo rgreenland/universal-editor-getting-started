@@ -4,14 +4,14 @@
     "/content/universal-editor-getting-started-site/configuration:/.helix/config.json",
     "/content/universal-editor-getting-started-site/metadata:/metadata.json",
     
-    "/content/universal-editor-getting-started-site-live-copy/:/universal-editor-getting-started-site-live-copy/",
-    "/content/universal-editor-getting-started-site-live-copy/configuration:/universal-editor-getting-started-site-live-copy/.helix/config.json",
-    "/content/universal-editor-getting-started-site-live-copy/metadata:/universal-editor-getting-started-site-live-copy/metadata.json"
+    "/content/ue-live-copy/:/ue-live-copy/",
+    "/content/ue-live-copy/configuration:/ue-live-copy/.helix/config.json",
+    "/content/ue-live-copy/metadata:/ue-live-copy/metadata.json"
 
 
   ],
   "includes": [
     "/content/universal-editor-getting-started-site/",
-    "/content/universal-editor-getting-started-site-live-copy/"
+    "/content/ue-live-copy/"
   ]
 }
