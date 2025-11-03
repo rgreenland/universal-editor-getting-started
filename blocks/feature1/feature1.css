@@ -34,14 +34,14 @@
 
 .css-l33vzl {
     box-sizing: border-box;
-    display: flex
-;
+    display: flex;
     width: 100%;
     flex-flow: wrap;
     -webkit-box-align: stretch;
     align-items: stretch;
     place-content: stretch flex-start;
     -webkit-box-pack: start;
+    margin-top: 20px;
 }
 
 *, ::before, ::after {
