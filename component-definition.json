@@ -151,7 +151,16 @@
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
                   "name": "Feature1Card",
-                  "model": "feature1card"
+                  "model": "feature1card",
+                  "title": "Card Title",
+                  "content": "Card Content",
+                  "image": "",
+                  "padding": "5",
+                  "label": "Card Label",
+                  "href": "https://www.centene.com",
+                  "openInNewTab": "true",
+                  "align": "center",
+                  "external": "true"
                 }
               }
             }
