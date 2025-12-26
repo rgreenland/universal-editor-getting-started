@@ -1,0 +1,17 @@
+/* LongFormContent-1 styles */
+:root {
+    --lfc1-gap: 1rem;
+    --lfc1-maxw: 70ch;
+    --lfc1-title-size: clamp(1.5rem, 2.5vw + 1rem, 2rem);
+    --lfc1-muted: #6b7280;
+  }
+  
+  .lfc1 { padding-inline: 1rem; }
+  .lfc1__stack { display: grid; gap: var(--lfc1-gap); max-width: 80ch; margin-inline: auto; }
+  
+  .lfc1__title { margin: 0; font-size: var(--lfc1-title-size); line-height: 1.2; }
+  
+  .lfc1__desc { display: grid; gap: 0.75rem; max-width: var(--lfc1-maxw); margin-inline: auto; }
+  .lfc1__desc p { margin: 0; }
+  .lfc1__desc img.lfc1__img { width: 100%; height: auto; border-radius: 8px; }
+  
