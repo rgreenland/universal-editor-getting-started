@@ -282,5 +282,23 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "long-form-content-1",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Title",
+        "required": true
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "description",
+        "label": "Description"
+      }
+    ]
   }
 ]
